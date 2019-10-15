@@ -14,4 +14,4 @@ class Chat(models.Model):
         return self.text[:50]
 
     def get_absolute_url(self):
-        return reverse('chat_detail', args=[str(self.id)])
+        return reverse('detail', args=[str(self.id)])
