@@ -25,7 +25,7 @@ SECRET_KEY = 'a+!l%4&$l3h)v@+m406c96c+30aiwir-cw4c79i%e%o=aga1jk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['git.heroku.com/lindasdjango-chat-app.git']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
